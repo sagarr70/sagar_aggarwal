@@ -85,41 +85,7 @@ height: 96vh;
 background-color: #0A192F;
 color: white;
 }
-.ml11 {
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #62FADA;
-    text-align: center;
-  }
-  
-  .ml11 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-  }
-  
-  .ml11 .line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    height: 90%;
-    width: 3px;
-    background-color: #62FADA;
-    transform-origin: 0 100%;
-    align-items: center;
-  }
-  
-  .ml11 .line1 { 
-    top: 0; 
-    left: 0;
-  }
-  
-  .ml11 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
+
   /*sagar image center*/
   .cen {
     display: block;
@@ -135,16 +101,25 @@ color: white;
     
 }
 .navbar{
-/*     display: flex;
-    
-    position: sticky;
-    top: 0;
-    cursor: pointer; */
-      
-     align-items: center;
-    justify-content: center;
-    background-color: #0A192F;
-    
+
+     display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(10, 25, 47);
+    z-index: 11;
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
+    transform: translateY(0px);
+    filter: none !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+    padding: 0px 50px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 .leftcont{
   display: flex;
@@ -164,15 +139,7 @@ color: white;
     vertical-align:super ;
     
 }
-.vl {
-  border-left: 6px normal green;
-  height: 100px;
-}
-.img-with-text
-{
-    padding-left: 50px;
-    padding-top: 50px;
-}
+
 .intro{
     padding-left: 100px;
     padding-right: 100px;
@@ -195,8 +162,8 @@ color: white;
 .count-title {
     font-size: 40px;
     font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 0;
+   
+    
     text-align: center;
     color: #005341;
 }
@@ -204,8 +171,6 @@ color: white;
 .count-text {
     font-size: 13px;
     font-weight: bolder;
-    margin-top: 10px;
-    margin-bottom: 0;
     text-align: center;
     color: #005341;
 }
@@ -215,10 +180,14 @@ color: white;
     color:whitesmoke;
     
 }
-.container{
+.containe{
     display: block;
+    width: 70%; /* Full width */
+    padding-left: 24%;
+    border-radius: 5px;
+    height: 0px;
 }
-hr {
+ hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -226,7 +195,7 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-  }
+  } 
   .alert{
     background-color: #0A192F;
   
@@ -242,15 +211,238 @@ hr {
  
   .vl {
     border-left: 6px solid #1dcaa5;
-    height: 500px;
+    height: 100px;
     position: absolute;
     left: 10%;
     margin-left: -3px;
     top: 0;
   }
-  /* Clear floats after the columns */
+   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } 
+  .krfQUW {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: #1dcaa5;
+}
+
+.juoHJq {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.jxlTta {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  margin: 20px auto;
+  padding: 10px;
+  color: #1dcaa5;
+}
+.jxlTta:hover{
+  text-decoration: none;
+  font-size: 15px;
+  color: #1dcaa5;
+  font-weight: bolder;
+}
+.gdFbEQ {
+  position: relative;
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 150px 0px;
+}
+.bBToPj {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 12px;
+  padding-left: 30px;
+}
+.dEMzYE {
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: rgb(100, 255, 218);
+  text-decoration: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  border-left: 2px solid rgb(48, 60, 85);
+}
+.dpgzhE {
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: rgb(136, 146, 176);
+  text-decoration: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  border-left: 2px solid rgb(48, 60, 85);
+}
+.dEMzYE:hover, .dEMzYE:focus {
+  background-color: rgb(23, 42, 69);
+}
+
+.dEMzYE:hover, .dEMzYE:active, .dEMzYE:focus {
+  color: rgb(100, 255, 218);
+  outline: 0px;
+}
+.bBToPj ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.fijiCw {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  color: rgb(168, 178, 209);
+  margin-bottom: 30px;
+}
+.jpTwwo {
+  color: rgb(204, 214, 246);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.gCOPqd {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 80%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 5px;
+  height: 25px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: black; /* White text color */
+  height: 25px;
+}
+.skil{
+  padding-left: 120px;
+  padding-right: 10px;
+  padding-top: 50px;
+}
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+  text-align: center;
+  color:rgb(3, 218, 182);
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(3, 218, 182);
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+}
+.title{
+  font-family: sans-serif;
+  color: #1ACAA5;
+  text-align: center;
+}
+.tabContainer{
+  width: 80%;
+  height: 350px;
+  padding-bottom: 50px;
+}
+.tabContainer .buttonContainer{
+  height: 15%;
+}
+.tabContainer .buttonContainer button{
+  width: 30%;
+  height: 100%;
+  float: center;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+}
+.tabContainer .buttonContainer button:hover{
+  background-color: #d7d4d4;
+  color: #000;
+}
+.tabContainer .tabPanel{
+  height: 85%;
+  background-color: gray;
+  color:#1acaa5;
+  padding-left: 15px;
+  padding-top: 15px;
+
+
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+  display: none;
+}
