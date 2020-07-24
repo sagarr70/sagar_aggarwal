@@ -216,7 +216,7 @@ color: white;
   .nav-pills .nav-link:hover{
     color:#1dcaa5;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 15px;
   }
  
   .vl {
@@ -242,6 +242,7 @@ color: white;
     z-index: 10;
     color: white;
     font-weight: bolder;
+    
 }
 
 .juoHJq {
@@ -569,4 +570,19 @@ button.subm:hover{
   
   border-radius: 50%;
   padding-left: 100px;
+}
+
+ .iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 95%;
+  height:80%;
+
 }
