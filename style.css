@@ -215,8 +215,8 @@ color: white;
   }
   .nav-pills .nav-link:hover{
     color:#1dcaa5;
-    font-weight: bolder;
-    font-size: 15px;
+    font-weight: normal;
+    
   }
  
   .vl {
