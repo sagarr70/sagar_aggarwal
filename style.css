@@ -213,11 +213,7 @@ color: white;
   .alert-heading{
     color: white;
   }
-  .nav-pills .nav-link:hover{
-    color:#1dcaa5;
-    font-weight: normal;
-    
-  }
+ 
  
   .vl {
     border-left: 6px solid #1dcaa5;
